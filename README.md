@@ -184,11 +184,13 @@ Para más información sobre la implementación de los demás métodos y sus par
 
 ## Contribución
 Actualmente no se cuenta con una página de donativos ni un lanzamiento formal de este proyecto. 
-Repositorio github:
+
+Repositorio github:https://github.com/arielarreola/test_umg_api_server_Ariel/
 
 Contacto: arielyohaina.arreolablanco@umg.edu.mx
 
 ## License
 Software libre con fines educativos 
+
 Creado por Ariel Arreola Blanco
 19/02/2021
