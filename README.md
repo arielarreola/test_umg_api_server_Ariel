@@ -1,4 +1,4 @@
-# Testing for Api Server at UMG - Prueba de servidor API en UMG 
+﻿# Testing for Api Server at UMG - Prueba de servidor API en UMG 
 ## Made for Cloud Computing class
 ## Descripción
 La presente Api está orientada a ser un intermediario entre páginas de Apis existentes y nuestro equipo. La ruta base para el acceso al presente servidor es mediante [localhost:3000/](https://localhost:3000/). 
@@ -37,19 +37,21 @@ URL Base: [http://localhost:3000/](https://localhost:3000/)
 Este sitio presenta una página de formato Html con la descripción básica de cada uno de los puntos de entrada de la presente aplicación. A continuación se describen los métodos GET y POST que soporta la aplicación y su uso.
 Cada método devuelve información en formato json, se recomienda tener en el navegador un plugin para una mejor lectura del texto. Para los métodos POST se requieren objetos tipo JSON de entrada, los cuales se pueden aplicar a Postman en la sección de Body.
 Métodos GET
-- Días Festivos
-- Obtener Clima
-- Obtener info música
-- Obtener info Studio Ghibli
-- Una trivia por año (en inglés)
+- Días Festivos: https://localhost:3000/diasfestivos/{año}/{codpais}
+- Obtener Clima: https://localhost:3000/clima/{ciudad}/
+- Obtener info música: https://localhost:3000/entretenimiento/musica/{banda o cantante}--si aplica, sustituir espacios en blanco por "%20".
+- Obtener info Studio Ghibli: https://localhost:3000/entretenimiento/studioghiblipeliculas/{película}
+- Edad de nombres: https://localhost:3000/entretenimiento/edades/{nombre}
 
 Métodos POST
-- Mi primer objeto de Javascript
-- Detector de sentimientos en texto (en inglés)
-- (under construction)
-- Generador de usuarios aleatorios
-- Acortador de URL
+- [Mi primer objeto de Javascript](https://localhost:3000/crearObjeto)
+- [Detector de sentimientos en texto (en inglés)](https://localhost:3000/appfeelings)
+- [Análisis de recetas](https://localhost:3000/analisisreceta)
+- [Generador de usuarios aleatorios](https://localhost:3000/personarandom)
+- [Acortador de URL](https://localhost:3000/acortarURL)
 
+
+NOTA: las URL se están marcando, sin embargo estas funcionan al ejecutarlas en postman con sus debidos objetos JSON de entrada.
 # Ejemplos
 
 **Método GET**
@@ -183,12 +185,11 @@ Respuesta
 Para más información sobre la implementación de los demás métodos y sus parámetros de entrada, así también ejemplos, véase el archivo DocumentaciónPruebaApi.
 
 ## Contribución
-Actualmente no se cuenta con una página de donativos ni un lanzamiento formal de este proyecto. 
 
 Repositorio github:https://github.com/arielarreola/test_umg_api_server_Ariel/
 
 Contacto: arielyohaina.arreolablanco@umg.edu.mx
-
+Puedes libremente realizar un fork al presente proyecto
 ## License
 Software libre con fines educativos 
 
