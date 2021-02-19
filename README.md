@@ -38,18 +38,28 @@ Este sitio presenta una página de formato Html con la descripción básica de c
 Cada método devuelve información en formato json, se recomienda tener en el navegador un plugin para una mejor lectura del texto. Para los métodos POST se requieren objetos tipo JSON de entrada, los cuales se pueden aplicar a Postman en la sección de Body.
 Métodos GET
 - **Días Festivos**: localhost:3000/diasfestivos/{año}/{codpais}
+Brinda una lista de las festividades más populares en un país y en que fecha se celebra dado un año
 - **Obtener Clima**: localhost:3000/clima/{ciudad}/
+Brinda toda la información sobre el clima actual de la ciudad indicada
 - **Obtener info música**: localhost:3000/entretenimiento/musica/{banda o cantante}--si aplica, sustituir espacios en blanco por "%20".
-- **Obtener info Studio Ghibli**: localhost:3000/entretenimiento/studioghiblipeliculas/{película}
+Despliega todos los objetos e información almacenada relacionada con la banda o el cantante
+- **Obtener info Studio Ghibli**: localhost:3000/entretenimiento/studioghiblipeliculas/
+Obtiene información en orden cronológico acerca de las peliculas de Studio Ghibli
 - **Edad de nombres**: localhost:3000/entretenimiento/edades/{nombre}
+Dado un nombre, la página devuelve el índice de frecuencia del mismo y una posible edad asociada al nombre.
 
+Los parámetros entre llaves indican que en este espacio pondremos un dato del tipo especificado por ellos.
 Métodos POST
 - [Mi primer objeto de Javascript](https://localhost:3000/crearObjeto)
+Crea un objeto JSON con base en parámetros de entrada.
 - [Detector de sentimientos en texto (en inglés)](https://localhost:3000/appfeelings)
+Recibe como entrada un texto en inglés y de salida interpreta si las frases dichas reflejan una emoción positiva o negativa (o neutra).
 - [Análisis de recetas](https://localhost:3000/analisisreceta)
+Recibe como entrada una receta con parámetros puntuales y de salida despliega un análisis completo sobre atributos posiblesde la receta, ingredientes, imagenes, alérgenos, etcétera.
 - [Generador de usuarios aleatorios](https://localhost:3000/personarandom)
+Recibe un objeto con parámetros para generar usuarios ficticios de manera aleatoria. Útil para crear bases de datos de muestra o práctica.
 - [Acortador de URL](https://localhost:3000/acortarURL)
-
+Dada una url cualquiera, devuelve una url corta originaria del propio endpoint.
 
 NOTA: las URL se están marcando, sin embargo estas funcionan al ejecutarlas en postman con sus debidos objetos JSON de entrada.
 # Ejemplos
