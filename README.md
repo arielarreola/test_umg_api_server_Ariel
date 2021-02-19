@@ -36,6 +36,8 @@ Para acceder a cada uno de los métodos del servidor de prueba, seguido del **lo
 URL Base: [http://localhost:3000/](https://localhost:3000/)
 Este sitio presenta una página de formato Html con la descripción básica de cada uno de los puntos de entrada de la presente aplicación. A continuación se describen los métodos GET y POST que soporta la aplicación y su uso.
 Cada método devuelve información en formato json, se recomienda tener en el navegador un plugin para una mejor lectura del texto. Para los métodos POST se requieren objetos tipo JSON de entrada, los cuales se pueden aplicar a Postman en la sección de Body.
+
+
 Métodos GET
 - **Días Festivos**: localhost:3000/diasfestivos/{año}/{codpais}
 Brinda una lista de las festividades más populares en un país y en que fecha se celebra dado un año
@@ -49,6 +51,7 @@ Obtiene información en orden cronológico acerca de las peliculas de Studio Ghi
 Dado un nombre, la página devuelve el índice de frecuencia del mismo y una posible edad asociada al nombre.
 
 Los parámetros entre llaves indican que en este espacio pondremos un dato del tipo especificado por ellos.
+
 Métodos POST
 - [Mi primer objeto de Javascript](https://localhost:3000/crearObjeto)
 Crea un objeto JSON con base en parámetros de entrada.
