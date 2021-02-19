@@ -37,11 +37,11 @@ URL Base: [http://localhost:3000/](https://localhost:3000/)
 Este sitio presenta una página de formato Html con la descripción básica de cada uno de los puntos de entrada de la presente aplicación. A continuación se describen los métodos GET y POST que soporta la aplicación y su uso.
 Cada método devuelve información en formato json, se recomienda tener en el navegador un plugin para una mejor lectura del texto. Para los métodos POST se requieren objetos tipo JSON de entrada, los cuales se pueden aplicar a Postman en la sección de Body.
 Métodos GET
-- Días Festivos: localhost:3000/diasfestivos/{año}/{codpais}
-- Obtener Clima: localhost:3000/clima/{ciudad}/
-- Obtener info música: localhost:3000/entretenimiento/musica/{banda o cantante}--si aplica, sustituir espacios en blanco por "%20".
-- Obtener info Studio Ghibli: localhost:3000/entretenimiento/studioghiblipeliculas/{película}
-- Edad de nombres: localhost:3000/entretenimiento/edades/{nombre}
+- **Días Festivos**: localhost:3000/diasfestivos/{año}/{codpais}
+- **Obtener Clima**: localhost:3000/clima/{ciudad}/
+- **Obtener info música**: localhost:3000/entretenimiento/musica/{banda o cantante}--si aplica, sustituir espacios en blanco por "%20".
+- **Obtener info Studio Ghibli**: localhost:3000/entretenimiento/studioghiblipeliculas/{película}
+- **Edad de nombres**: localhost:3000/entretenimiento/edades/{nombre}
 
 Métodos POST
 - [Mi primer objeto de Javascript](https://localhost:3000/crearObjeto)
@@ -55,7 +55,8 @@ NOTA: las URL se están marcando, sin embargo estas funcionan al ejecutarlas en 
 # Ejemplos
 
 **Método GET**
-Obtener clima: [localhost:3000/clima/Seattle](localhost:3000/clima/Seattle)
+Obtener clima: 
+[localhost:3000/clima/Seattle](localhost:3000/clima/Seattle)
 
 Respuesta (JSON)
 ```
