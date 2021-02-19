@@ -1,0 +1,127 @@
+<font face="Arial">
+<h1 style="text-align: center; color: #3f7384;">Bienvenido a la API de Prueba (Testing Api)</h1>
+<p><span style="font-family: Arial;"><span style="font-family: Arial;"><!-- Este comentario es visible solo en el editor 
+
+fuente --></span></span></p>
+<p><strong>Esta API es un ejercicio para la materia de Cloud Computing en la cual se incluyen consumos de APIs de terceros mediante m&eacute;todos GET y POST.</strong></p>
+<p>Cada extensi&oacute;n del presente servidor ofrece servicios tanto de consulta como de entretenimiento, incluyendo algunas utilidades para creaci&oacute;n de trabajos o pr&aacute;cticas con el uso de APIs</p>
+<p>Puede que parezca dificil crear o utilizar m&eacute;todos en una API, por eso, consulte el archivo <a title="Informaci&oacute;n 
+
+Api" href="https://github.com/arielarreola/test_umg_api_ser
+
+ver_Ariel/blob/master/README.md" target="_blank" rel="noopener">README.md</a> del repositorio GitHub, los cuales brindar&aacute;n instrucciones e informaci&oacute;n para el uso de las APIs configuradas, as&iacute; tambi&eacute;n si le interesan, algunos ejemplos o maneras en las que usted pueda utilizarlos en el archivo de Documentacion.</p>
+<p>Todos los m&eacute;todos deben ser invocados empezando por "localhost:300" seguido de una de las extensiones soportadas</p>
+<table class="demoTable" style="height: 537px; width: 584px; border-style: solid;" border="5px">
+<thead>
+<tr style="height: 36px;">
+<td style="height: 36px; width: 308px;"><span style="color: #c82828;">Extensiones soportadas</span></td>
+<td style="height: 36px; width: 90px;"><span style="color: #c82828;">Nombre</span></td>
+<td style="width: 126px; height: 36px;"><span style="color: #c82828;">Nombre de Sitio de origen (endpoint)</span></td>
+<td style="width: 57px; height: 36px;"><span style="color: #c82828;">Ejemplo</span></td>
+</tr>
+</thead>
+<tbody>
+<tr style="height: 20px;">
+<td style="height: 20px; width: 308px;">/diasfestivos/{a&ntilde;o}/{codpais};</td>
+<td style="height: 20px; width: 90px;">Dias Festivos</td>
+<td style="width: 126px; height: 20px;">NagerDate</td>
+<td style="width: 57px; height: 20px;">/diasfestivos/2021/UK</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 308px; height: 18px;">/clima/{una ciudad}</td>
+<td style="width: 90px; height: 18px;">Obtener Clima</td>
+<td style="width: 126px; height: 18px;">OpenWheaterMap</td>
+<td style="width: 57px; height: 18px;">/clima/mcallen</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 308px; height: 18px;">/entretenimiento/musica/{una banda o cantante}</td>
+<td style="width: 90px; height: 18px;">Obtener info m&uacute;sica</td>
+<td style="width: 126px; height: 18px;">MusicBrainz</td>
+<td style="width: 57px; height: 18px;">/entretenimiento/musica/scorpions</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 308px; height: 18px;">/entretenimiento/studioghiblipeliculas</td>
+<td style="width: 90px; height: 18px;">Obtener Info Studio Ghibli</td>
+<td style="width: 126px; height: 18px;">Ghibli Api</td>
+<td style="width: 57px; height: 18px;">idem</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 308px; height: 18px;">/entretenimiento/studioghiblipeliculas/{una pelicula}</td>
+<td style="width: 90px; height: 18px;">Info sobre pel&iacute;cula SG</td>
+<td style="width: 126px; height: 18px;">Ghibli Api</td>
+<td style="width: 57px; height: 18px;">/entretenimiento/studioghiblipeliculas/Castillo_Ambulante</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 308px; height: 18px;">/entretenimiento/edades/{nombre}</td>
+<td style="width: 90px; height: 18px;">Edad de nombres</td>
+<td style="width: 126px; height: 18px;">Agify.io</td>
+<td style="width: 57px; height: 18px;">/entretenimiento/edades/jessie</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 308px; height: 18px;">/crearObjeto*</td>
+<td style="width: 90px; height: 18px;">Mi primer objeto de JavaScript</td>
+<td style="width: 126px; height: 18px;">Json PlaceHolder</td>
+<td style="width: 57px; height: 18px;">
+<div>
+<div>{</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"userId":&nbsp;1,</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"title": "Test1",</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"body": "Hola mundo"</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;}</div>
+</div>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 308px; height: 18px;">/appfeelings*</td>
+<td style="width: 90px; height: 18px;">Detector de sentimientos en texto</td>
+<td style="width: 126px; height: 18px;">Sentim-api</td>
+<td style="width: 57px; height: 18px;">
+<div>
+<div>{</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"text":"I could do my better"</div>
+<br />
+<div>&nbsp;&nbsp;&nbsp;&nbsp;}</div>
+</div>
+</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 308px; height: 18px;">/analisisreceta*</td>
+<td style="width: 90px; height: 18px;">An&aacute;lisis de recetas</td>
+<td style="width: 126px; height: 18px;">Spoonacular</td>
+<td style="width: 57px; height: 18px;">ver en la documentaci&oacute;n</td>
+</tr>
+<tr style="height: 18px;">
+<td style="width: 308px; height: 18px;">/personarandom*</td>
+<td style="width: 90px; height: 18px;">Generador de usuarios aleatorios</td>
+<td style="width: 126px; height: 18px;">Randomuser</td>
+<td style="width: 57px; height: 18px;">
+<div>
+<div>{</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"password":&nbsp;"number",</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"results":&nbsp;"2",</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"gender":&nbsp;"male",</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"nat":&nbsp;"US"</div>
+<div>&nbsp;&nbsp;&nbsp;&nbsp;}</div>
+</div>
+</td>
+</tr>
+<tr style="height: 36px;">
+<td style="width: 308px; height: 36px;">/acortarURL*</td>
+<td style="width: 90px; height: 36px;">Acortador de URL</td>
+<td style="width: 126px; height: 36px;">Cleanuri</td>
+<td style="width: 57px; height: 36px;">
+<div>
+<div>{</div>
+<div>"url":"https://mappinggis.com/2019/10/como-crear-mapas-con-google-my-maps/"</div>
+<div>}</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;*Usted requiere de Postman para obtener resultados, ejecutando la acci&oacute;n POST</p>
+<p>**Los endpoints mencionados son propiedad de sus respectivos due&ntilde;os.</p>
+<p>&nbsp;</p>
+<p style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Creado por Ariel Arreola-Universidad Marista de Guadalajara</p>
+<p style="text-align: center;">19/02/2021</p>
+</font>
