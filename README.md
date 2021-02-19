@@ -58,7 +58,7 @@ Crea un objeto JSON con base en parámetros de entrada.
 - [Detector de sentimientos en texto (en inglés)](https://localhost:3000/appfeelings)
 Recibe como entrada un texto en inglés y de salida interpreta si las frases dichas reflejan una emoción positiva o negativa (o neutra).
 - [Análisis de recetas](https://localhost:3000/analisisreceta)
-Recibe como entrada una receta con parámetros puntuales y de salida despliega un análisis completo sobre atributos posiblesde la receta, ingredientes, imagenes, alérgenos, etcétera.
+Recibe como entrada una receta con parámetros puntuales y de salida despliega un análisis completo sobre atributos posibles de la receta, ingredientes, imágenes, alérgenos, etcétera.
 - [Generador de usuarios aleatorios](https://localhost:3000/personarandom)
 Recibe un objeto con parámetros para generar usuarios ficticios de manera aleatoria. Útil para crear bases de datos de muestra o práctica.
 - [Acortador de URL](https://localhost:3000/acortarURL)
