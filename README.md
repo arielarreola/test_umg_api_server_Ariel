@@ -1,9 +1,9 @@
 ﻿# Testing for Api Server at UMG - Prueba de servidor API en UMG 
 ## Made for Cloud Computing class
 ## Descripción
-La presente Api está orientada a ser un intermediario entre páginas de Apis existentes y nuestro equipo. La ruta base para el acceso al presente servidor es mediante [localhost:8080/](https://localhost:8080/). 
+La presente Api está orientada a ser un intermediario entre páginas de Apis existentes y nuestro equipo. La ruta base para el acceso al presente servidor es mediante [localhost:8080/](https://localhost:8080/) o bien, [https://apipruebaariel.herokuapp.com/](https://apipruebaariel.herokuapp.com/). 
 En el presente proyecto definimos 5 accesos a métodos GET y 5 de acceso a POST.
-## Requisitos 
+## Requisitos
 - Nodejs
 - Postman
 - Navegador Chrome (opcional)
@@ -28,13 +28,16 @@ npm run dev
 - **Server.js**: aqui se define cada método empleado en lenguaje Javascript, es el código fuente del proyecto
 - **package.json**: lista de versión, dependencias, nombre, etcétera.
 - **package-lock.json**: archivo requerido para la ejecución del package y dependencias, no modificar
+- **DocumentacionApiPrueba.docx**: archivo de Word con documentación detallada de la API
+- **README**: documento que usted está leyendo en este momento.
+- **views/welcome**: archivo de html de bienvenida al acceder al método raíz (por defecto).
 
 ## Prueba del código
 Para acceder a cada uno de los métodos del servidor de prueba, seguido del **localhost:8080** se agrega cada uno de los puntos de entrada desarrollados en el proyecto, cada uno de ellos se describirá a continuación. Los resultados se configuraron para que aparezcan en la terminal de Postman, así como respondería un endpoint si usted lo envía por separado. 
 
 ## Rest
-URL Base: [http://localhost:8080/](https://localhost:8080/)
-Este sitio presenta una página de formato Html con la descripción básica de cada uno de los puntos de entrada de la presente aplicación. A continuación se describen los métodos GET y POST que soporta la aplicación y su uso.
+URL Base: [http://localhost:8080/](https://localhost:8080/) y [https://apipruebaariel.herokuapp.com/](https://apipruebaariel.herokuapp.com/)
+Estos sitios presenta una página de formato Html con la descripción básica de cada uno de los puntos de entrada de la presente aplicación. A continuación se describen los métodos GET y POST que soporta la aplicación y su uso.
 Cada método devuelve información en formato json, se recomienda tener en el navegador un plugin para una mejor lectura del texto. Para los métodos POST se requieren objetos tipo JSON de entrada, los cuales se pueden aplicar a Postman en la sección de Body.
 
 
@@ -204,7 +207,7 @@ Repositorio github:https://github.com/arielarreola/test_umg_api_server_Ariel/
 
 Contacto: arielyohaina.arreolablanco@umg.edu.mx
 Puedes libremente realizar un fork al presente proyecto.
-https://apipruebaariel.herokuapp.com/
+Página: https://apipruebaariel.herokuapp.com/
 
 ## Licencia
 Software libre con fines educativos 
