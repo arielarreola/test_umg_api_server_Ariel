@@ -1,7 +1,7 @@
 ﻿# Testing for Api Server at UMG - Prueba de servidor API en UMG 
 ## Made for Cloud Computing class
 ## Descripción
-La presente Api está orientada a ser un intermediario entre páginas de Apis existentes y nuestro equipo. La ruta base para el acceso al presente servidor es mediante [localhost:3000/](https://localhost:3000/). 
+La presente Api está orientada a ser un intermediario entre páginas de Apis existentes y nuestro equipo. La ruta base para el acceso al presente servidor es mediante [localhost:8080/](https://localhost:8080/). 
 En el presente proyecto definimos 5 accesos a métodos GET y 5 de acceso a POST.
 ## Requisitos 
 - Nodejs
@@ -30,38 +30,38 @@ npm run dev
 - **package-lock.json**: archivo requerido para la ejecución del package y dependencias, no modificar
 
 ## Prueba del código
-Para acceder a cada uno de los métodos del servidor de prueba, seguido del **localhost:300** se agrega cada uno de los puntos de entrada desarrollados en el proyecto, cada uno de ellos se describirá a continuación. Los resultados se configuraron para que aparezcan en la terminal de Postman, así como respondería un endpoint si usted lo envía por separado. 
+Para acceder a cada uno de los métodos del servidor de prueba, seguido del **localhost:8080** se agrega cada uno de los puntos de entrada desarrollados en el proyecto, cada uno de ellos se describirá a continuación. Los resultados se configuraron para que aparezcan en la terminal de Postman, así como respondería un endpoint si usted lo envía por separado. 
 
 ## Rest
-URL Base: [http://localhost:3000/](https://localhost:3000/)
+URL Base: [http://localhost:8080/](https://localhost:8080/)
 Este sitio presenta una página de formato Html con la descripción básica de cada uno de los puntos de entrada de la presente aplicación. A continuación se describen los métodos GET y POST que soporta la aplicación y su uso.
 Cada método devuelve información en formato json, se recomienda tener en el navegador un plugin para una mejor lectura del texto. Para los métodos POST se requieren objetos tipo JSON de entrada, los cuales se pueden aplicar a Postman en la sección de Body.
 
 
 Métodos GET
-- **Días Festivos**: localhost:3000/diasfestivos/{año}/{codpais}
+- **Días Festivos**: localhost:8080/diasfestivos/{año}/{codpais}
 Brinda una lista de las festividades más populares en un país y en que fecha se celebra dado un año
-- **Obtener Clima**: localhost:3000/clima/{ciudad}/
+- **Obtener Clima**: localhost:8080/clima/{ciudad}/
 Brinda toda la información sobre el clima actual de la ciudad indicada
-- **Obtener info música**: localhost:3000/entretenimiento/musica/{banda o cantante}--si aplica, sustituir espacios en blanco por "%20".
+- **Obtener info música**: localhost:8080/entretenimiento/musica/{banda o cantante}--si aplica, sustituir espacios en blanco por "%20".
 Despliega todos los objetos e información almacenada relacionada con la banda o el cantante
-- **Obtener info Studio Ghibli**: localhost:3000/entretenimiento/studioghiblipeliculas/
+- **Obtener info Studio Ghibli**: localhost:8080/entretenimiento/studioghiblipeliculas/
 Obtiene información en orden cronológico acerca de las peliculas de Studio Ghibli
-- **Edad de nombres**: localhost:3000/entretenimiento/edades/{nombre}
+- **Edad de nombres**: localhost:8080/entretenimiento/edades/{nombre}
 Dado un nombre, la página devuelve el índice de frecuencia del mismo y una posible edad asociada al nombre.
 
 Los parámetros entre llaves indican que en este espacio pondremos un dato del tipo especificado por ellos.
 
 Métodos POST
-- [Mi primer objeto de Javascript](https://localhost:3000/crearObjeto)
+- [Mi primer objeto de Javascript](https://localhost:8080/crearObjeto)
 Crea un objeto JSON con base en parámetros de entrada.
-- [Detector de sentimientos en texto (en inglés)](https://localhost:3000/appfeelings)
+- [Detector de sentimientos en texto (en inglés)](https://localhost:8080/appfeelings)
 Recibe como entrada un texto en inglés y de salida interpreta si las frases dichas reflejan una emoción positiva o negativa (o neutra).
-- [Análisis de recetas](https://localhost:3000/analisisreceta)
+- [Análisis de recetas](https://localhost:8080/analisisreceta)
 Recibe como entrada una receta con parámetros puntuales y de salida despliega un análisis completo sobre atributos posibles de la receta, ingredientes, imágenes, alérgenos, etcétera.
-- [Generador de usuarios aleatorios](https://localhost:3000/personarandom)
+- [Generador de usuarios aleatorios](https://localhost:8080/personarandom)
 Recibe un objeto con parámetros para generar usuarios ficticios de manera aleatoria. Útil para crear bases de datos de muestra o práctica.
-- [Acortador de URL](https://localhost:3000/acortarURL)
+- [Acortador de URL](https://localhost:8080/acortarURL)
 Dada una url cualquiera, devuelve una url corta originaria del propio endpoint.
 
 NOTA: las URL se están marcando, sin embargo estas funcionan al ejecutarlas en postman con sus debidos objetos JSON de entrada.
@@ -69,7 +69,7 @@ NOTA: las URL se están marcando, sin embargo estas funcionan al ejecutarlas en 
 
 **Método GET**
 Obtener clima: 
-[localhost:3000/clima/Seattle](localhost:3000/clima/Seattle)
+[localhost:8080/clima/Seattle](localhost:8080/clima/Seattle)
 
 Respuesta (JSON)
 ```

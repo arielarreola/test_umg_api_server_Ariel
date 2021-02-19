@@ -6,7 +6,8 @@ var path = require('path'); // libreria auxiliar para insertar archivos en un pa
 const body_parser = require('body-parser');
 //usando express
 const app = express(); //constructor de express
-
+//establecer puerto para heroku
+let port=process.env.PORT||8080
 //midleware
 app.use(express.urlencoded({
     extended: true
@@ -216,7 +217,7 @@ app.post('/analisisreceta', (req, res) => {
     }) //fin analisis receta
 
 //Server
-app.listen(3000, () => {
-    console.log("server running on port 3000"); //manda a llamar al servidor en el puerto 3000 por defecto
+app.listen(port, () => {
+    console.log("server running on port"+ port); 
+//manda a llamar al servidor en el puerto por defecto
 })
-
